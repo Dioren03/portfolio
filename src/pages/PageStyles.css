@@ -1,0 +1,89 @@
+/* General page layout */
+.page-container {
+  background-color: #123535;
+  color: white;
+  min-height: 100vh;
+  padding: 60px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.about-content {
+  max-width: 800px;        /* limits line length for better readability */
+  width: 90%;              /* responsive width up to max-width */
+  margin: 2rem auto;       /* vertical spacing + center horizontally */
+  padding: 1rem 1.5rem;    /* adds breathing room inside container */
+  line-height: 1.6;        /* improves text readability */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* clean modern font */
+}
+
+
+/* Page title */
+.page-title {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* Paragraph content */
+.page-description {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* Back button styling */
+.back-button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: #FFD700;
+  color: #222;
+  padding: 10px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 3px 3px 0px #ff9900;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #ffc800;
+}
+
+.skills-box ul {
+  padding-left: 1.5em;
+  list-style-type: disc;
+  line-height: 1.6;
+}
+
+.skills-box li {
+  margin-bottom: 1em;
+}
+
+.projects-list {
+  max-width: 80%;
+  margin: 20px auto;
+  font-size: 20px;
+  line-height: 1.8;
+  color: white;
+}
+
+.challenges-list p {
+  text-indent: 2em;
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+
+.plans-list ul {
+  padding-left: 1.5em;
+  list-style-type: disc;
+  line-height: 1.6;
+}
+
+.plans-list li {
+  margin-bottom: 1em;
+}
+
